@@ -91,8 +91,9 @@ function ajout(){
                 break;
     
             default:
-                // Code à exécuter si aucun des cas ne correspond
+                alert("Ce couleur dn’existe pas");
                 break;
+               
         }
     }
     
@@ -106,20 +107,5 @@ function ajout(){
     
     inputBox.value="";
   }
-          
-          // let boutonStyle = getComputedStyle(this);
-          // let butonBgColor= boutonStyle["backgroundColor"]
-          // let groupediv = document.querySelector(".info");
-          // groupediv.style.backgroundColor= butonBgColor;
-        
-
-    
-
-      // }
-      // 
-      //  }
-
-      //  
        
-    
 
