@@ -91,7 +91,7 @@ function ajout(){
                 break;
     
             default:
-                alert("Ce couleur dn’existe pas");
+                alert("Ce couleur n’existe pas");
                 break;
                
         }
