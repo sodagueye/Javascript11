@@ -1,0 +1,35 @@
+
+    <!-- Faire un todolist avec Bootstrap et JavaScript avec les possibilités suivantes :
+
+1: ajout d'une tâche : l'utilisateur peut ajouter n tâches qu'il veut
+2: List des tâches : l'utilisateur doit voir la liste des tâches ajoutées
+3: Actions: chaque tâche doit avoir 3 boutons : 
+
+to do (background du tâche en rouge)
+doing (background du tâche en orange)
+Terminé (fond du tache en vert) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="List.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>TO-DO-List </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button class="ajout" onclick="ajout()">Add</button>
+            </div>
+            <ul id="list-container">
+               
+            </ul> 
+        </div>
+    </div>
+
+    <script src="ToDoList.js"></script>
+</body>
+</html>
